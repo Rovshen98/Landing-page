@@ -1,0 +1,404 @@
+@media only screen and (min-width: 1350px){
+    .poligon {
+        width: 1307px;
+        height: 1072px;
+        border-radius: 50%;
+        background-image: linear-gradient(to right,#744ec7,40%,#cf3299);
+        position: absolute;
+        top: -40%;
+        right: -32%;
+        z-index: -1;}
+        .ds {
+            position: absolute;
+            bottom: 40px;
+            right: 25%;}
+
+            .but {
+                
+                margin-right: 9%;
+        }
+
+        .design-left_img {
+            margin-left: 150px;
+    }
+    .round {
+        width: 4000px;
+        height: 3000px;
+        position: absolute;
+        top: 66px;
+        left: -53%;
+        background: #e6e1e1e5;
+        border-radius: 50%;
+        z-index: -999;
+}
+}
+
+@media only screen and (max-width: 1144px){
+    .poligon {
+        
+        top: -50%;
+        right: -45%;
+        z-index: -1;
+}
+
+.one h1 {
+    font-size: 30px;
+}
+
+.one p {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.one_img {
+    width: 1000px;
+    position: absolute;
+    top: -100px;
+    right: -15%;
+    z-index: -1;
+}
+.ds {
+    position: absolute;
+    bottom: 40px;
+    right: 7%;
+    border: 2px solid;
+    border-color: #cf3299;
+    z-index: 1;
+}
+
+.dw, .ds {
+    width: 45%;
+    height: 55px;}
+.round {
+        width: 3000px;
+        height: 3000px;
+        position: absolute;
+        top: 0;
+        left: -70%;
+}
+
+
+}
+
+@media only screen and (max-width: 998px){
+   
+i.fas.fa-bars{
+        font-size: 20px !important;
+        display: block;
+        padding-left: 10px;
+        color:white
+    }
+.menu{
+    position: relative;
+}
+
+.menu ul{
+    display:none
+}
+.resmenu{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        position: fixed;
+        display: block;
+        padding: 15px 0 0 20px;
+        top: 80px;
+        left: 0;
+        z-index: 99999;
+    }
+
+.resmenu li{
+    color:white;
+    font-size: 14px;
+    padding: 10px 5px;
+     list-style: none;
+}
+.resmenu li i{
+    padding-left: 5px;
+}
+
+.one_img {
+    width: 1000px;
+    position: absolute;
+    top: 95%;
+    right: -15%;
+    z-index: -1;
+}
+.rate {
+    margin-top: 75%;}
+
+.awesome{
+        padding-right: 70px;
+        display: flex;
+        justify-content:center;
+        margin-top: 200px;
+
+}
+.agony{
+    width: 340px;
+    position: relative;
+}
+.dw,.ds{
+    width: 160px;
+    height: 40px;}
+
+
+.dw{
+    top: 0;
+    left: 0;
+}
+
+.ds{
+    top: 0;
+    right: 0;
+}
+
+.one_img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    right: 15%;
+}
+
+.second_slider{
+   display: flex;
+   flex-direction: column;
+   height: 1500px;
+}
+.h h3{
+    margin-bottom: 20px;
+}
+.relax{
+    width: 100%;
+}
+.agony_2{
+    position: relative;
+    width: 400px;
+}
+.buto{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.but{
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+
+.manage{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+.manage img{
+    width: 50%;
+    height: 700px;
+}
+.design{
+    display: flex;
+    flex-direction:column;
+    height: 1000px;
+}
+.design-left_img{
+    width: 50%;
+    height: 700px;
+    margin-left:20px ;
+}
+
+.worked{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+.worked_right{
+    margin-top: 50px;
+}
+.worked_right-2 {
+    top: -30px;
+    right: 60px;
+}
+.pre_2 {
+    position: absolute;
+    top: 96%;
+    left: 42%;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+    .poligon {
+        top: -60%;
+        right: -100%;
+        z-index: -1;
+}
+
+.tslider{
+    width: 100%;
+}
+
+.nex_2 {
+    position: absolute;
+    top: 96%;
+    right: 29%;
+}
+
+.worked_right img{
+    width: 100px;
+    height: 100px;
+}
+p{
+    font-size: 12px !important;
+}
+
+h1{
+    font-size: 25px !important;
+}
+.honorable_left_5 {
+    position: absolute;
+    width: 100px !important;
+    height: 100px !important;
+    top: 30%;
+    right: 22%;
+}
+.honorable_left img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    
+}
+.honorable_left_6 {
+    position: absolute;
+    bottom: 50px;
+    right: 53%;}
+
+.worked_right-3 {
+    top: 170px;
+    right: 262px;
+}
+.awesome{
+    margin-top: 100px;
+}
+
+.worked_right-4 {
+    top: 196px;
+    right: 134px;
+}
+.one p{
+    font-weight: bold;
+}
+.social i {
+    color: grey;
+    padding: 0 5px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 650px){
+    .poligon {
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        background-image: linear-gradient(to right,#744ec7,40%,#cf3299);
+        position: absolute;
+        right: -157%;
+}
+
+.awesome{
+    width: 80%;
+}
+.one{
+    width: 100%;
+}
+
+.one_img{
+    width: 400px;
+    height: 400px;
+    left: 40px;
+}
+
+.rate{
+    margin-top: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nex,.pre{
+    display: none;
+}
+
+.buto {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: -70px;
+}
+
+
+
+.but {
+        position: absolute;
+        top: 67px;
+        left: -68px;
+}
+.manage_left{
+    width: 100%;
+}
+.manage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.design-right{
+    width: 100%;
+}
+.design{
+    height: 800px;
+}
+.design-left_img{
+    width: 100%;
+    object-fit: cover;
+}
+.tslider{
+    width: 100%;
+    height: 50%;
+}
+.pre_2,.nex_2{
+    display: none;
+}
+.worked_left{
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.worked_left p{
+    width: 100%;
+    text-align: center;
+}
+h3{
+    font-size: 25px !important;
+}
+.worked_right img{
+    width: 60px;
+    height: 60px;
+}
+.worked_right-1 {
+    top: 0;
+    left: 163px;
+}
+.worked_right-3 {
+    top: 170px;
+    left: 103px;
+}
+.worked_right-5 {
+    bottom: 57%;
+    right: -65px;
+}
+.worked_right-4 {
+    top: 100px;
+    right: 81px;
+}
+}
