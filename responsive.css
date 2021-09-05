@@ -401,4 +401,75 @@ h3{
     top: 100px;
     right: 81px;
 }
+.reasonable {
+    padding-left: 23px;
+}
+.toogle{
+    margin-left: 20px;
+}
+.prices{
+    display: flex;
+    flex-direction:column;
+    height: 1500px;
+    align-items: center;
+}
+.prices div{
+    margin-left: 90px;
+    
+}
+.honorable_left{
+    display: none;
+}
+.honorable img{
+    display: none;
+}
+.toogle{
+    margin-bottom: 40px;
+}
+.fourth{
+    display: none;
+}
+.honorable_right {
+    width: 100%;
+    margin-left: 60px;
+}
+.round{
+    
+    position: absolute;
+    top: 0;
+    left: -163%;
+}
+.footer_2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 29px;
+    margin-left: 10px;
+    
+}
+.fa-envelope {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 22px;
+    left: 35px;
+}
+.btn_end {
+    border: none;
+    width: 150px;
+    height: 37px;
+    color: white;
+    font-size: 12px;
+    margin-top:10px;
+    padding-bottom: 27px;
+    
+    text-align: center;
+}
+.footer_3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    flex-direction: column;
+    height: max-content;
+}
 }
