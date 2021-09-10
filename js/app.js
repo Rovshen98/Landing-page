@@ -18,6 +18,30 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// ....................................
+function resize(){
+  if (window.innerWidth < 769){
+    var swiper = new Swiper(".main_slider_1", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      slidesPerGroup: 1,
+      loop: true,
+      autoplay:{
+          delay:4000,
+          disableOnInteraction: false,
+      },
+      loopFillGroupWithBlank: true,
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  }
+}
+
+window.addEventListener('resize', resize);
+
 
 var swiper = new Swiper(".main_slider_1", {
     slidesPerView: 3,
@@ -37,6 +61,10 @@ var swiper = new Swiper(".main_slider_1", {
   });
 
 //   second_slider------------
+// ................
+
+
+// ...................
 let sone= document.querySelector(".stick_one")
 let stwo=document.querySelector(".stick_two")
 let sthree= document.querySelector(".stick_three")
@@ -59,7 +87,35 @@ sone.addEventListener('click', () => {
      document.querySelector(".swiper-wrapper_second img")
     .setAttribute("src","./IMG/appilo.jpg")
   });
+// ................................
+  function resize_2(){
+    if(window.innerWidth < 769 ){
+      var swiper = new Swiper(".tslider", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: 1,
+        coverflowEffect: {
+          scale:0.8,
+          rotate:0,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+       
+      }); 
+    }
+  }
 
+window.addEventListener('resize', resize_2)
+
+// ............................
   // third slider===============
   var swiper = new Swiper(".tslider", {
     effect: "coverflow",

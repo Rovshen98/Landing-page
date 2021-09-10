@@ -49,6 +49,7 @@ header{
 .active .logo{
     color: white;
     padding: 10px;
+    
 }
 
 .active .menu ul li:hover{
@@ -133,7 +134,7 @@ button.up:hover{
 /* ------------------------------------------------- */
 .awesome{
     width: 100%;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content:flex-start;
     margin-top: 300px;
@@ -154,6 +155,8 @@ button.up:hover{
     font-size: 40px;
 }
 .one p{
+    display: block;
+    height:100px;
     margin-top: 15px;
     font-size: 17px;
     line-height: 30px;
@@ -176,16 +179,22 @@ button.up:hover{
     z-index: 1;
 
 }
+
+.agony{
+    width: 350px !important;
+    position: relative;
+    height: 50px
+}
 .dw{
     background: linear-gradient(to right,#744ec7,#cf3299);
     position:absolute;
-    bottom: 40px;
+    bottom: 0px;
     left: 0px;
     color: white;
 }
 .ds{
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
     right: 40px;
     border: 2px solid;
     border-color:#cf3299;
@@ -334,11 +343,7 @@ button.up:hover{
    
 }
 
-/* .profile{
 
-}
-.down{}
-.qppilo{} */
 
 .second_img_one{
     position: relative;
@@ -374,11 +379,16 @@ button.up:hover{
 }  
 
 .stick{
-    width: 2px;
+    width: 3px;
     height: 480px;
     background: linear-gradient(to bottom,#744ec7,#cf3299);
-    margin:80px;
+    
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:70px 0 0 0;
+    
 }
 
 .stick_one{
@@ -458,10 +468,17 @@ button.up:hover{
     height: 30px;
     margin-left: 15px;
 }
+.agony_2{
+    margin-top: 60px;
+    margin-left: -110px;
+    position: relative;
+    width: 500px;
+    height: max-content;
+}
 .buto{
     background-image:linear-gradient(to right,#744ec7,#cf3299);
     bottom: 0;
-    left:10%;
+    left:0;
     padding: 10px;
 }
 .buto div{
@@ -478,7 +495,7 @@ button.up:hover{
 }
 .but{
     bottom: 0;
-    right: 20%;
+    right: 17%;
     background-color: white;
     padding: 10px;
     border: 3px solid #cf3299 ;
